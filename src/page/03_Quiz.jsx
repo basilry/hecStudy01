@@ -11,7 +11,7 @@ function Quiz() {
             <Title>Quiz!!</Title>
 
             <img
-                src="https://basilry.github.io/hecStudy01/img/domHtml.png"
+                src="img/domHtml.png"
                 style={{ margin: "20px", width: "500px" }}
             />
 
@@ -27,7 +27,7 @@ function Quiz() {
                 있습니다. 한번, body를 찾아보겠습니다.
             </Paragraph>
 
-            <img style={{ margin: "20px" }} src="https://basilry.github.io/hecStudy01/img/consoleLogBody.png" />
+            <img style={{ margin: "20px" }} src="img/consoleLogBody.png" />
 
             <Paragraph>
                 참고로 DOM 구조를 조회하기 위해서는 console.dir이 유용합니다.
@@ -42,7 +42,7 @@ function Quiz() {
                 찾아봅시다. 이번에는 힌트를 드리겠습니다. children을 찾아볼까요?
             </Paragraph>
 
-            <img style={{ margin: "20px" }} src="https://basilry.github.io/hecStudy01/img/consoleLogBodyChd.png" />
+            <img style={{ margin: "20px" }} src="img/consoleLogBodyChd.png" />
 
             <Paragraph>
                 밑으로 쭉 내려보시면 children 속성을 찾으실 수 있을 겁니다.
@@ -51,7 +51,7 @@ function Quiz() {
                 조회하실 수도 있습니다.
             </Paragraph>
 
-            <img style={{ margin: "20px" }} src="https://basilry.github.io/hecStudy01/assets/documentBodyChd.png" />
+            <img style={{ margin: "20px" }} src="assets/documentBodyChd.png" />
 
             <SubTitls>Q2. 부모 엘리먼트 찾기</SubTitls>
             <Paragraph>
@@ -62,7 +62,7 @@ function Quiz() {
                 엘리먼트를 조회해야 합니다.
             </Paragraph>
 
-            <img style={{ margin: "20px" }} src="https://basilry.github.io/hecStudy01/assets/consoleLogParent.png" />
+            <img style={{ margin: "20px" }} src="assets/consoleLogParent.png" />
 
             <Paragraph>
                 매번 document.body 로부터 찾아가는 것은 정말 번거로운 일입니다.
@@ -71,7 +71,7 @@ function Quiz() {
                 할당합시다.
             </Paragraph>
 
-            <img style={{ margin: "20px" }} src="https://basilry.github.io/hecStudy01/img/alias.png" />
+            <img style={{ margin: "20px" }} src="img/alias.png" />
 
             <Paragraph>
                 결국 newsContents의 부모 엘리먼트를 가리키고 있는 속성을
@@ -86,7 +86,7 @@ function Quiz() {
                 만들어집니다.
             </Paragraph>
 
-            <img style={{ margin: "20px" }} src="https://basilry.github.io/hecStudy01/img/tree.png" />
+            <img style={{ margin: "20px" }} src="img/tree.png" />
 
             <Paragraph>
                 이런 자료 구조를 컴퓨터 공학에서는 트리 구조라고 합니다. 가장 큰
@@ -101,7 +101,7 @@ function Quiz() {
                     width: "700px",
                     marginBottom: "100px",
                 }}
-                src="/assets/pseudoCode.png"
+                src="/img/pseudoCode.png"
             />
             <BottomNav children1={"02_AtHtml"} children2={"04_Control"} />
         </div>

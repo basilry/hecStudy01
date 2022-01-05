@@ -11,7 +11,7 @@ function Basic() {
             <Title>Intro. 여러분, DOM에 대해 들어보셨는지요..</Title>
 
             <SubTitls>* DOM의 기본적인 구조 형태</SubTitls>
-            <img alt="hello" src="https://basilry.github.io/hecStudy01/img/domImg.png" style={{ margin: "20px" }} />
+            <img alt="hello" src="img/domImg.png" style={{ margin: "20px" }} />
             <Paragraph>
                 <p
                     style={{
