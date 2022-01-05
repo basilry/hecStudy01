@@ -34,6 +34,7 @@ function App() {
   return (
     // // <div>hello</div>
     // <div className="App">
+    // <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/01_Basic" element={<Basic />} />
@@ -41,7 +42,7 @@ function App() {
           <Route path="/03_Quiz" element={<Quiz />} />
           <Route path="/04_Control" element={<Control />} />
           <Route path="/Final" element={<Final />} />
-          <Route path="/" element={<Main />} />
+          <Route path="/hecStudy01" element={<Main />} />
         </Routes>
       </BrowserRouter>
     // </div>
