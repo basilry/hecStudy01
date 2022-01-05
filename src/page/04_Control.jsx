@@ -173,21 +173,6 @@ function Control() {
             <Paragraph>or</Paragraph>
             <CodeBlock>{`for (let tweet of tweets){ tweet.remove() }`}</CodeBlock>
 
-            {/* <div
-                style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    fontSize: "25px",
-                    fontWeight: "600",
-                }}
-            >
-                <div onClick={() => window.scrollTo(0, 0)}>
-                    <Link to="/03_Quiz">{`< 03_Quiz`}</Link>
-                </div>
-                <div onClick={() => window.scrollTo(0, 0)}>
-                    <Link to="/">{`Main >`}</Link>
-                </div>
-            </div> */}
             <BottomNav children1={"03_Quiz"} children2={"Main"} />
         </div>
     );

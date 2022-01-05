@@ -15,7 +15,7 @@ function AtHtml() {
             </SubTitls>
 
             <img
-                src="/domHtml.png"
+                src="https://basilry.github.io/hecStudy01/assets/domHtml.png"
                 style={{ margin: "20px", width: "700px" }}
             />
 

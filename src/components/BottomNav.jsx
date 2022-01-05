@@ -10,7 +10,7 @@ function BottomNav(props) {
 
     useEffect(() => {
         if (children1 === "Main") {
-            setChild("");
+            setChild("hecStudy01");
         } else {
             setChild(children1);
         }
@@ -18,7 +18,7 @@ function BottomNav(props) {
 
     useEffect(() => {
         if (children2 === "Main") {
-            setChild2("");
+            setChild2("hecStudy01");
         } else {
             setChild2(children2);
         }

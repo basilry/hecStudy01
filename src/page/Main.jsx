@@ -11,9 +11,6 @@ function Main() {
         <SubTitls>Pro. 김바실리</SubTitls>
       <div className="MainBody">
         <ul>
-          {/* <li className="link">
-            <Link to="/">Main</Link>
-          </li> */}
           <li className="link">
             <Link to="/01_Basic">01_Basic</Link>
           </li>
