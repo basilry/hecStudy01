@@ -1,9 +1,9 @@
 import React from "react";
-import BottomNav from "../components/BottomNav";
-import CodeBlock from "../components/CodeBlock";
-import Paragraph from "../components/Paragraph";
-import SubTitls from "../components/SubTitls";
-import Title from "../components/Title";
+import CodeBlock from "../../components/CodeBlock";
+import SubTitls from "../../components/SubTitls";
+import Title from "../../components/Title";
+import Paragraph from "../../components/Paragraph"
+import BottomNav from "../../components/BottomNav"
 
 function Control() {
     return (

@@ -6,12 +6,8 @@ import {
   Link,
   BrowserRouter,
 } from "react-router-dom";
-import Main from "./page/Main";
-import Basic from "./page/01_Basic";
-import AtHtml from "./page/02_AtHtml";
-import Quiz from "./page/03_Quiz";
-import Control from "./page/04_Control";
-import Final from "./page/Final";
+import Main from "./page/hecStudy01/Main.jsx"
+
 
 function App() {
   // 일단.. 돔을 강의하자
@@ -30,22 +26,27 @@ function App() {
 
   // 이 파일은 리엑트기반, 리엑트 라우터 돔으로 라우팅 처리,
   // 각 단원별로 파일을 구성해서 링크를 클릭하면 해당 내용들이 나오게끔 한다.
+  
 
   return (
     // // <div>hello</div>
     // <div className="App">
     // <div className="App">
-      <BrowserRouter>
+    <Router>
+    <div>
+      <nav>
+        
+            <Link to="/hecStudy01">스터디 1회자료</Link>
+          
+      </nav>
+      
         <Routes>
-          <Route path="/01_Basic" element={<Basic />} />
-          <Route path="/02_AtHtml" element={<AtHtml />} />
-          <Route path="/03_Quiz" element={<Quiz />} />
-          <Route path="/04_Control" element={<Control />} />
-          <Route path="/Final" element={<Final />} />
+          <Route path="/" element={<App />} />
           <Route path="/hecStudy01" element={<Main />} />
         </Routes>
-      </BrowserRouter>
-    // </div>
+      
+    </div>
+    </Router>
   );
 }
 

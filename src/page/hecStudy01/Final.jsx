@@ -1,6 +1,6 @@
 import React from "react";
-import SubTitls from "../components/SubTitls";
-import Title from "../components/Title";
+import SubTitls from "../../components/SubTitls";
+import Title from "../../components/Title";
 
 function Final() {
     return (

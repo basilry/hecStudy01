@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import BottomNav from "../components/BottomNav";
-import Paragraph from "../components/Paragraph";
-import SubTitls from "../components/SubTitls";
-import Title from "../components/Title";
+import SubTitls from "../../components/SubTitls";
+import Title from "../../components/Title";
+import Paragraph from "../../components/Paragraph"
+import BottomNav from "../../components/BottomNav"
 
 function Quiz() {
     return (
