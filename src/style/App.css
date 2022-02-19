@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
+
 body {
   font-family: "Noto Sans KR";
-  background-color: rgb(193, 193, 202)
+  background-color: #0F2C67;
+  color: #F4E185;
+  margin: 0;
 }
 
 ul {
@@ -16,7 +19,7 @@ ul {
 }
 
 .link:hover {
-  color: rgb(59, 165, 133)
+  color: #F3950D;
 }
 
 .MainWhole {
@@ -25,7 +28,7 @@ ul {
 }
 
 .MainWhole .Title {
-  color: rgb(26, 48, 82)
+  color: #F3950D;
 }
 
 .MainBody {
