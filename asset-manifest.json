@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hecStudy01/static/css/main.c63fa16d.css",
-    "main.js": "/hecStudy01/static/js/main.e16e35a8.js",
+    "main.css": "/hecStudy01/static/css/main.e0fc4b0f.css",
+    "main.js": "/hecStudy01/static/js/main.bbbd67fc.js",
     "index.html": "/hecStudy01/index.html",
-    "main.c63fa16d.css.map": "/hecStudy01/static/css/main.c63fa16d.css.map",
-    "main.e16e35a8.js.map": "/hecStudy01/static/js/main.e16e35a8.js.map"
+    "main.e0fc4b0f.css.map": "/hecStudy01/static/css/main.e0fc4b0f.css.map",
+    "main.bbbd67fc.js.map": "/hecStudy01/static/js/main.bbbd67fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c63fa16d.css",
-    "static/js/main.e16e35a8.js"
+    "static/css/main.e0fc4b0f.css",
+    "static/js/main.bbbd67fc.js"
   ]
 }
