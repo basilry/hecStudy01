@@ -15,8 +15,8 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/hecStudy01/*" element={<Hec01Router />}>
+                <Route exact path="/hecStudy01" element={<Home />} />
+                <Route path="/study01/*" element={<Hec01Router />}>
                     <Route path="Main" element={<Main />} />
                     <Route path="01_Basic" element={<Basic />} />
                     <Route path="02_AtHtml" element={<AtHtml />} />
@@ -24,7 +24,7 @@ function App() {
                     <Route path="04_Control" element={<Control />} />
                     <Route path="Final" element={<Final />} />
                 </Route>
-                <Route path="/hecStudy02/*" element={<Hec02Rotuer />}>
+                <Route path="/study02/*" element={<Hec02Rotuer />}>
                     <Route path="Main" element={<Main02 /> } />
                 </Route>
             </Routes>

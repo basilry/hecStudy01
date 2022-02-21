@@ -86,7 +86,7 @@ function Quiz() {
                     src={img08}
                     alt="ele"
                 />
-                <BottomNav children1={"hecStudy01/02_AtHtml"} children2={"hecStudy01/04_Control"} />
+                <BottomNav children1={"study01/02_AtHtml"} children2={"study01/04_Control"} />
             </div>
         </Layout>
     )

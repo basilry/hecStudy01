@@ -52,7 +52,7 @@ function Basic() {
                     </p>
                     이라는 것이지요!
                 </div>
-                <BottomNav children1={"hecStudy01/Main"} children2={"hecStudy01/02_AtHtml"} />
+                <BottomNav children1={"study01/Main"} children2={"study01/02_AtHtml"} />
             </div>
         </Layout>
     )

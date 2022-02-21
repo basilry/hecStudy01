@@ -12,13 +12,13 @@ function Layout({ children }) {
             <div className={open ? "sideBar_whole" : "sideBar_none"}>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/hecStudy01">Home</Link>
                     </li>
                     <li>
-                        <Link to="/hecStudy01/Main">1회차 발표자료 :: DOM</Link>
+                        <Link to="/study01/Main">1회차 발표자료 :: DOM</Link>
                     </li>
                     <li>
-                        <Link to="/hecStudy02/Main">2회차 발표자료 :: Redux</Link>
+                        <Link to="/study02/Main">2회차 발표자료 :: Redux</Link>
                     </li>
                 </ul>
                 <div>©2022. 김바실리 all rights reserved.</div>
