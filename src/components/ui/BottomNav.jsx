@@ -24,6 +24,8 @@ function BottomNav(props) {
         }
     }, [children2]);
 
+    console.log(children1, children2.split("/"))
+
     return (
         <div
             style={{
@@ -36,10 +38,10 @@ function BottomNav(props) {
             }}
         >
             <div style={{marginRight: "50px"}} className="link" onClick={() => window.scrollTo(0, 0)}>
-                <Link to={`/${child}`}>{`< ${children1.split("/")[1]}`}</Link>
+                <Link to={`${child}`}>{`< ${children1.split("/")[3]}`}</Link>
             </div>
             <div className="link" onClick={() => window.scrollTo(0, 0)}>
-                <Link to={`/${child2}`}>{`${children2.split("/")[1]} >`}</Link>
+                <Link to={`${child2}`}>{`${children2.split("/")[3]} >`}</Link>
             </div>
         </div>
     );

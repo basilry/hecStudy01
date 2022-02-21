@@ -32,7 +32,7 @@ function AtHtml() {
                         -id의 이름이 nav인 div엘리먼트 를 포함해서, 모든 자식 엘리먼트의 class 이름을 console.log를 사용하여 확인하려면 어떻게 해야 할지 수도코드(pseudocode)를 작성해주세요
                     </div>
                 </Paragraph>
-                <BottomNav children1={"study01/01_Basic"} children2={"study01/03_Quiz"} />
+                <BottomNav children1={"/hecStudy01/study01/01_Basic"} children2={"/hecStudy01/study01/03_Quiz"} />
             </div>
         </Layout>
     )

@@ -13,10 +13,10 @@ function Home() {
                 <SubTitls>Pro. 김바실리</SubTitls>
                 <ul>
                     <li>
-                        <Link to="/study01/Main">1회차 발표 :: DOM</Link>
+                        <Link to="/hecStudy01/study01/Main">1회차 발표 :: DOM</Link>
                     </li>
                     <li>
-                        <Link to="/study02/Main">2회차 발표 :: Redux</Link>
+                        <Link to="/hecStudy01/study02/Main">2회차 발표 :: Redux</Link>
                     </li>
                 </ul>
             </div>

@@ -13,19 +13,19 @@ function Main() {
                 <div className="MainBody">
                     <ul>
                         <li className="link">
-                            <Link to="/study01/01_Basic">01_Basic</Link>
+                            <Link to="/hecStudy01/study01/01_Basic">01_Basic</Link>
                         </li>
                         <li className="link">
-                            <Link to="/study01/02_AtHtml">02_AtHtml</Link>
+                            <Link to="/hecStudy01/study01/02_AtHtml">02_AtHtml</Link>
                         </li>
                         <li className="link">
-                            <Link to="/study01/03_Quiz">03_Quiz</Link>
+                            <Link to="/hecStudy01/study01/03_Quiz">03_Quiz</Link>
                         </li>
                         <li className="link">
-                            <Link to="/study01/04_Control">04_Control</Link>
+                            <Link to="/hecStudy01/study01/04_Control">04_Control</Link>
                         </li>
                         <li className="link">
-                            <Link to="/study01/Final">05_참고자료</Link>
+                            <Link to="/hecStudy01/study01/Final">05_참고자료</Link>
                         </li>
                     </ul>
                 </div>

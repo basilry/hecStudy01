@@ -121,7 +121,7 @@ function Control() {
                 <Paragraph>or</Paragraph>
                 <CodeBlock>{`for (let tweet of tweets){ tweet.remove() }`}</CodeBlock>
 
-                <BottomNav children1={"study01/03_Quiz"} children2={"study01/Main"} />
+                <BottomNav children1={"/hecStudy01/study01/03_Quiz"} children2={"/hecStudy01/study01/Main"} />
             </div>
         </Layout>
     )

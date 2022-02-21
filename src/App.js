@@ -16,17 +16,15 @@ function App() {
         <Router>
             <Routes>
                 <Route exact path="/hecStudy01" element={<Home />} />
-                <Route path="/study01/*" element={<Hec01Router />}>
-                    <Route path="Main" element={<Main />} />
-                    <Route path="01_Basic" element={<Basic />} />
-                    <Route path="02_AtHtml" element={<AtHtml />} />
-                    <Route path="03_Quiz" element={<Quiz />} />
-                    <Route path="04_Control" element={<Control />} />
-                    <Route path="Final" element={<Final />} />
-                </Route>
-                <Route path="/study02/*" element={<Hec02Rotuer />}>
-                    <Route path="Main" element={<Main02 /> } />
-                </Route>
+                <Route exact path="/hecStudy01/study01" element={<Hec01Router />} />
+                <Route exact path="/hecStudy01/study01/Main" element={<Main />} />
+                <Route exact path="/hecStudy01/study01/01_Basic" element={<Basic />} />
+                <Route exact path="/hecStudy01/study01/02_AtHtml" element={<AtHtml />} />
+                <Route exact path="/hecStudy01/study01/03_Quiz" element={<Quiz />} />
+                <Route exact path="/hecStudy01/study01/04_Control" element={<Control />} />
+                <Route exact path="/hecStudy01/study01/Final" element={<Final />} />
+                <Route exact path="/hecStudy01/study02" element={<Hec02Rotuer />} />
+                <Route exact path="/hecStudy01/study02/Main" element={<Main02 />} />
             </Routes>
         </Router>
     )
