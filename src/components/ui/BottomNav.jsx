@@ -27,17 +27,19 @@ function BottomNav(props) {
     return (
         <div
             style={{
+                marginBottom: "50px",
                 display: "flex",
-                justifyContent: "space-between",
+                justifyContent: "right",
                 fontSize: "25px",
                 fontWeight: "600",
+                zIndex: "100"
             }}
         >
-            <div className="link" onClick={() => window.scrollTo(0, 0)}>
-                <Link to={`/${child}`}>{`< ${children1}`}</Link>
+            <div style={{marginRight: "50px"}} className="link" onClick={() => window.scrollTo(0, 0)}>
+                <Link to={`/${child}`}>{`< ${children1.split("/")[1]}`}</Link>
             </div>
             <div className="link" onClick={() => window.scrollTo(0, 0)}>
-                <Link to={`/${child2}`}>{`${children2} >`}</Link>
+                <Link to={`/${child2}`}>{`${children2.split("/")[1]} >`}</Link>
             </div>
         </div>
     );

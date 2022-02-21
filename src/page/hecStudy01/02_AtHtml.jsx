@@ -4,6 +4,7 @@ import Title from "../../components/Title"
 import Paragraph from "../../components/Paragraph"
 import BottomNav from "../../components/ui/BottomNav"
 import Layout from "../../components/ui/Layout"
+import img01 from "../../img/domHtml.png"
 
 function AtHtml() {
     return (
@@ -13,7 +14,7 @@ function AtHtml() {
 
                 <SubTitls>* 위와 같은 엘리먼트 구조에서 아래의 질문에 대답을 해보세요</SubTitls>
 
-                <img src="/img/domHtml.png" style={{ margin: "20px", width: "700px" }} />
+                <img src={img01} style={{ margin: "20px", width: "700px" }} alt="ele" />
 
                 <SubTitls>질문1</SubTitls>
                 <Paragraph>
