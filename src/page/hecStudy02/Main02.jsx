@@ -1,15 +1,15 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import SubTitls from "../../components/SubTitls"
-import Title from "../../components/Title"
-import Layout from "../../components/ui/Layout"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Title from '../../components/Title';
+import Layout from '../../components/ui/Layout';
 
-function Main() {
+
+function Main02 () {
     return (
         <Layout>
             <div className="MainWhole">
-                <Title>헥톤프로젝트 목요스터디 1회차 발표자료</Title>
-                <Title>DOM :: Document Object Manipulation</Title>
+                <Title>헥톤프로젝트 목요스터디 2회차 발표자료</Title>
+                <Title>Redux</Title>
                 <div className="MainBody">
                     <ul>
                         <li className="link">
@@ -31,7 +31,8 @@ function Main() {
                 </div>
             </div>
         </Layout>
-    )
+    );
 }
 
-export default Main
+
+export default Main02;
