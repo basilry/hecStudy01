@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hecStudy01/static/css/main.0d2f4a11.css",
-    "main.js": "/hecStudy01/static/js/main.70dfdbec.js",
+    "main.js": "/hecStudy01/static/js/main.bf5e3b89.js",
     "static/media/pseudoCode.png": "/hecStudy01/static/media/pseudoCode.b165552b88e2d2785ff5.png",
     "static/media/domHtml.png": "/hecStudy01/static/media/domHtml.f559e8822cec30877d48.png",
     "static/media/domImg.png": "/hecStudy01/static/media/domImg.3cac01154e1e1abedee4.png",
@@ -12,10 +12,10 @@
     "static/media/alias.png": "/hecStudy01/static/media/alias.c3ee52d81e388369a79e.png",
     "index.html": "/hecStudy01/index.html",
     "main.0d2f4a11.css.map": "/hecStudy01/static/css/main.0d2f4a11.css.map",
-    "main.70dfdbec.js.map": "/hecStudy01/static/js/main.70dfdbec.js.map"
+    "main.bf5e3b89.js.map": "/hecStudy01/static/js/main.bf5e3b89.js.map"
   },
   "entrypoints": [
     "static/css/main.0d2f4a11.css",
-    "static/js/main.70dfdbec.js"
+    "static/js/main.bf5e3b89.js"
   ]
 }
