@@ -9,7 +9,7 @@ function Main02 () {
         <Layout>
             <div className="MainWhole">
                 <Title>헥톤프로젝트 목요스터디 2회차 발표자료</Title>
-                <Title>Redux</Title>
+                <Title><p style={{color: "rgb(186, 143, 255)"}}>Redux</p></Title>
                 <div className="MainBody">
                     <ul>
                         <li className="link">

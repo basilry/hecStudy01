@@ -9,7 +9,7 @@ function Main() {
         <Layout>
             <div className="MainWhole">
                 <Title>헥톤프로젝트 목요스터디 1회차 발표자료</Title>
-                <Title>DOM :: Document Object Manipulation</Title>
+                <Title><p style={{color : "#f4f4f4"}}>DOM :: Document Object Manipulation</p></Title>
                 <div className="MainBody">
                     <ul>
                         <li className="link">
