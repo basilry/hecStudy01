@@ -9,8 +9,11 @@ function Home() {
     return (
         <Layout>
             <div className="Home_whole">
+
                 <Title>헥톤프로젝트 비전개발Z팀 목요 스터디 자료</Title>
                 <SubTitls>Pro. 김바실리</SubTitls>
+
+                <div className="Home_ul">
                 <ul>
                     <li>
                         <Link to="/hecStudy01/study01/Main">1회차 발표 :: DOM</Link>
@@ -19,6 +22,7 @@ function Home() {
                         <Link to="/hecStudy01/study02/Main">2회차 발표 :: Redux</Link>
                     </li>
                 </ul>
+                </div>
             </div>
         </Layout>
     )

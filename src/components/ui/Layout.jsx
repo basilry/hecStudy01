@@ -26,6 +26,9 @@ function Layout({ children }) {
             <div style={{paddingTop: "100px"}}>
             {children}
             </div>
+            <div className="topBtn" onClick={() => window.scrollTo({top: 0, left: 0, behavior: "smooth"})}>
+                <div>Top👆</div>
+            </div>
         </div>
     )
 }

@@ -34,31 +34,46 @@ function Basic02() {
                 애플리케이션이 굉장히 간단해집니다.
             </Paragraph>
 
-            <SubTitls>* 플럭스(Flux)의 구성요소</SubTitls>
+            <SubTitls />
+
+            <Title>1. 플럭스(Flux)의 구성요소</Title>
             <img alt="reduxflow" src={img02} />
             <Paragraph>
                 플럭스는 아키첵처의 이름이지만 페이스북에서 'Flux'라는 이름으로 플럭스 아키텍처를 구현한 구현체를 의미하기도 합니다. 크게 플럭스의 구성요소는 View, Action, Dispatcher, Store로 나뉩니다.
             </Paragraph>
 
-            <SubTitls>1. 뷰(View)</SubTitls>
+            <SubTitls>1-1. 뷰(View)</SubTitls>
             <Paragraph>
                 뷰는 리액트 컴포넌트로 생각하면 됩니다. 사용자가 뷰에 어떤 조작을 하면 해당 조작에 해당하는 액션을 생성합니다.
             </Paragraph>
 
-            <SubTitls>2. 액션(Action)</SubTitls>
+            <SubTitls>1-2. 액션(Action)</SubTitls>
             <Paragraph>
                 액션은 단순한 객체입니다. 단순히 어떤 행동을 할지를 나타내는 객체입니다. "상품을 카트에 추가한다" 또는 "상품을 구입한다"라는 사용자 조작 등이 액션입니다. 또한 "대화상자를 출력한다"나 "캐시하고 있는 데이터를 초기화한다"같은 시스템적인 동작도 액션입니다. 액션을 디스패치(Dispatch)하면 액션이 스토어로 전달됩니다.
             </Paragraph>
             
-            <SubTitls>3. 디스패처(Dispatcher)</SubTitls>
+            <SubTitls>1-3. 디스패처(Dispatcher)</SubTitls>
             <Paragraph>
                 디스패치는 모든 데이터의 흐름을 관리합니다. 하지만 디스패처 자체는 굉장히 단순한 EventEmitter이며, 디스패치된 데이터는 스토어로 전달됩니다. 디스패처를 통해 액션이 스토어로 전달되다고 생각하면 됩니다.
             </Paragraph>
 
-            <SubTitls>4. 스토어(Store)</SubTitls>
+            <SubTitls>1-4. 스토어(Store)</SubTitls>
             <Paragraph>
                 스토어는 애플리케이션의 상태와 로직을 저장하는 장소입니다. 스토어는 MVC에서 모델과 비슷한 것이라고 생각하면 됩니다. 애플리켕시녀 자체 도메인에서 상태를 관리할 수 있다는 것이 특징입니다. 디스패처를 사용해서 전달된 액션을 받고, 이를 기반으로 애플리케이션의 상태를 변화시킵니다.
             </Paragraph>
+
+            <SubTitls />
+
+            <Title>2. 리덕스 3원칙</Title>
+
+            <SubTitls>2-1. 원칙 1) 진실은 하나의 소스로부터</SubTitls>
+            <Paragraph></Paragraph>
+
+            <SubTitls>2-2. 원칙 2) 상태는 읽기 전용이다</SubTitls>
+            <Paragraph></Paragraph>
+
+            <SubTitls>2-3. 원칙 3) 변화는 순수 함수로 이뤄져야 한다</SubTitls>
+            <Paragraph></Paragraph>
 
             <BottomNav children1={"/hecStudy01/study02/Main"} children2={"/hecStudy01/study02/02_ReudxExample"} />
         </Layout>
