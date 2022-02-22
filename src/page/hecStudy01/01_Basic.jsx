@@ -4,7 +4,7 @@ import Title from "../../components/Title"
 import Paragraph from "../../components/Paragraph"
 import BottomNav from "../../components/ui/BottomNav"
 import Layout from "../../components/ui/Layout"
-import img01 from "../../img/domImg.png"
+import img01 from "../../img/study01/domImg.png"
 
 function Basic() {
     return (

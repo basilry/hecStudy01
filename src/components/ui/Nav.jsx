@@ -6,8 +6,8 @@ function Nav ({open, setOpen}) {
 
     return (
         <div className="Nav_whole">
-            <div className="hamberger" onClick={() => setOpen(!open)}>
-                <p>🍔</p>
+            <div className="hamberger" >
+                <p onClick={() => setOpen(!open)}>🍔</p>
             </div>
         </div>
     );
