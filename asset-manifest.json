@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hecStudy01/static/css/main.2a30766b.css",
-    "main.js": "/hecStudy01/static/js/main.820a5fb9.js",
+    "main.css": "/hecStudy01/static/css/main.ff6001a7.css",
+    "main.js": "/hecStudy01/static/js/main.d83d0640.js",
     "static/media/pseudoCode.png": "/hecStudy01/static/media/pseudoCode.b165552b88e2d2785ff5.png",
     "static/media/domHtml.png": "/hecStudy01/static/media/domHtml.f559e8822cec30877d48.png",
     "static/media/ReduxLogo.jpg": "/hecStudy01/static/media/ReduxLogo.84181bd946a22f9999da.jpg",
@@ -13,11 +13,11 @@
     "static/media/consoleLogBodyChd.png": "/hecStudy01/static/media/consoleLogBodyChd.8d713994570550d709d2.png",
     "static/media/alias.png": "/hecStudy01/static/media/alias.c3ee52d81e388369a79e.png",
     "index.html": "/hecStudy01/index.html",
-    "main.2a30766b.css.map": "/hecStudy01/static/css/main.2a30766b.css.map",
-    "main.820a5fb9.js.map": "/hecStudy01/static/js/main.820a5fb9.js.map"
+    "main.ff6001a7.css.map": "/hecStudy01/static/css/main.ff6001a7.css.map",
+    "main.d83d0640.js.map": "/hecStudy01/static/js/main.d83d0640.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a30766b.css",
-    "static/js/main.820a5fb9.js"
+    "static/css/main.ff6001a7.css",
+    "static/js/main.d83d0640.js"
   ]
 }
