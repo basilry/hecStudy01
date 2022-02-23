@@ -1,23 +1,32 @@
 {
   "files": {
     "main.css": "/hecStudy01/static/css/main.ff6001a7.css",
-    "main.js": "/hecStudy01/static/js/main.d83d0640.js",
+    "main.js": "/hecStudy01/static/js/main.76dca4f6.js",
     "static/media/pseudoCode.png": "/hecStudy01/static/media/pseudoCode.b165552b88e2d2785ff5.png",
     "static/media/domHtml.png": "/hecStudy01/static/media/domHtml.f559e8822cec30877d48.png",
     "static/media/ReduxLogo.jpg": "/hecStudy01/static/media/ReduxLogo.84181bd946a22f9999da.jpg",
+    "static/media/reduxsaga.png": "/hecStudy01/static/media/reduxsaga.92d45968c6054194d12f.png",
     "static/media/domImg.png": "/hecStudy01/static/media/domImg.3cac01154e1e1abedee4.png",
     "static/media/documentBodyChd.png": "/hecStudy01/static/media/documentBodyChd.c697369f5bb33b4f3dd3.png",
     "static/media/consoleLogParent.png": "/hecStudy01/static/media/consoleLogParent.03e5d69548ca4601a0dd.png",
+    "static/media/reduxthunk.jpeg": "/hecStudy01/static/media/reduxthunk.04f8315afaa42f5d6c9f.jpeg",
     "static/media/reduxFlow.jpg": "/hecStudy01/static/media/reduxFlow.f6cbe288f0b57a9e49b9.jpg",
+    "static/media/todoapp.jpg": "/hecStudy01/static/media/todoapp.abccab97b38e708dda7f.jpg",
     "static/media/consoleLogBody.png": "/hecStudy01/static/media/consoleLogBody.94708e6b3b93b5596e35.png",
+    "static/media/container.jpg": "/hecStudy01/static/media/container.140548fe5d157a70d09e.jpg",
+    "static/media/reactreduxtodo.jpg": "/hecStudy01/static/media/reactreduxtodo.214f2bc72bf83f5ab1ad.jpg",
     "static/media/consoleLogBodyChd.png": "/hecStudy01/static/media/consoleLogBodyChd.8d713994570550d709d2.png",
+    "static/media/reducers.jpg": "/hecStudy01/static/media/reducers.0165901586ba193ebf7d.jpg",
+    "static/media/reactreduxindex.jpg": "/hecStudy01/static/media/reactreduxindex.97c1b3c6187b0e78b2a4.jpg",
+    "static/media/index.jpg": "/hecStudy01/static/media/index.89118923021cb7eb0270.jpg",
     "static/media/alias.png": "/hecStudy01/static/media/alias.c3ee52d81e388369a79e.png",
+    "static/media/actions.jpg": "/hecStudy01/static/media/actions.26b1938782504c7c05d5.jpg",
     "index.html": "/hecStudy01/index.html",
     "main.ff6001a7.css.map": "/hecStudy01/static/css/main.ff6001a7.css.map",
-    "main.d83d0640.js.map": "/hecStudy01/static/js/main.d83d0640.js.map"
+    "main.76dca4f6.js.map": "/hecStudy01/static/js/main.76dca4f6.js.map"
   },
   "entrypoints": [
     "static/css/main.ff6001a7.css",
-    "static/js/main.d83d0640.js"
+    "static/js/main.76dca4f6.js"
   ]
 }
