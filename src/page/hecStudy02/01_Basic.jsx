@@ -10,10 +10,16 @@ import img02 from "../../img/study02/reduxFlow.jpg"
 function Basic02() {
     return (
         <Layout>
+            <BottomNav children1={"/hecStudy01/study02/Main"} children2={"/hecStudy01/study02/02_ReduxExample"} />
+
+            <SubTitls />
+
             <Title>Intro. Redux에 대하여</Title>
 
             <SubTitls>* Redux의 전체적인 개념 조감</SubTitls>
-            <img alt="reduxlogo" src={img01} style={{ margin: "20px", width: "1000px" }} />
+            <Paragraph>
+            <img alt="reduxlogo" src={img01} style={{  width: "1000px" }} />
+            </Paragraph>
 
             <Paragraph>
                 <p>
@@ -37,7 +43,7 @@ function Basic02() {
             <SubTitls />
 
             <Title>1. 플럭스(Flux)의 구성요소</Title>
-            <img alt="reduxflow" src={img02} />
+            <Paragraph><img alt="reduxflow" src={img02} /></Paragraph>
             <Paragraph>
                 플럭스는 아키첵처의 이름이지만 페이스북에서 'Flux'라는 이름으로 플럭스 아키텍처를 구현한 구현체를 의미하기도 합니다. 크게 플럭스의 구성요소는 View, Action, Dispatcher, Store로 나뉩니다.
             </Paragraph>
@@ -67,15 +73,23 @@ function Basic02() {
             <Title>2. 리덕스 3원칙</Title>
 
             <SubTitls>2-1. 원칙 1) 진실은 하나의 소스로부터</SubTitls>
-            <Paragraph></Paragraph>
+            <Paragraph>
+                애플리케이션의 모든 상태를 거대한 하나의 객체로 관리합니다. 따라서 애플리케이션의 디버깅과 테스트를 쉽게 할 수 있습니다. 또한 모든 곳에서 필요한 상태를 참조할 수 있으므로 애플리케이션 구현도 간단해집니다.
+            </Paragraph>
 
             <SubTitls>2-2. 원칙 2) 상태는 읽기 전용이다</SubTitls>
-            <Paragraph></Paragraph>
+            <Paragraph>
+                컴포넌트에서 애플리케이션의 상태를 참조할 수는 있지만 변경해서는 안됩니다. 액션(Action: 어떤 동작을 했는지를 나타내는 단순한 객체)을  디스패치(Dispatch: 발행)해야만 애플리케이션의 상태를 변경할 수 있습니다. 이렇게 해야 데이터의 흐름이 한 방향으로만 흐르게 만들 수 있습니다. 따라서 애플리케이션이 복잡해지는 부작용 등을 막을 수 있습니다.
+            </Paragraph>
 
             <SubTitls>2-3. 원칙 3) 변화는 순수 함수로 이뤄져야 한다</SubTitls>
-            <Paragraph></Paragraph>
+            <Paragraph>
+                상태 변경은 부작용이 없는 순수 함수(Pure Function)로 합니다. 순수 함수란 무엇일까요? 순수 함수는 "같은 입력 값을 넣으면 같은 출력 값을 내는 함수"를 의미합니다. 리덕스는 액션을 입력으로 받고, 이로 인해 변화한 상태를 출력으로 봅니다. 그리고 이를 수행하는 순수 함수가 바로 리듀서(Reducer)입니다.
+            </Paragraph>
 
-            <BottomNav children1={"/hecStudy01/study02/Main"} children2={"/hecStudy01/study02/02_ReudxExample"} />
+            <SubTitls />
+
+            <BottomNav children1={"/hecStudy01/study02/Main"} children2={"/hecStudy01/study02/02_ReduxExample"} />
         </Layout>
     )
 }

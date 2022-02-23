@@ -1,11 +1,15 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import Nav from "./Nav"
 import "../../style/Layout.scss"
 import { Link } from "react-router-dom"
 
 function Layout({ children }) {
     const [open, setOpen] = useState(false)
+    const [scrollY, setScrollY] = useState(0)
 
+    window.addEventListener("scroll", function () {
+        setScrollY(window.scrollY)
+    })
     return (
         <div>
             <Nav open={open} setOpen={setOpen} />
@@ -23,12 +27,16 @@ function Layout({ children }) {
                 </ul>
                 <div>©2022. 김바실리 all rights reserved.</div>
             </div>
-            <div style={{paddingTop: "100px"}}>
-            {children}
-            </div>
-            <div className="topBtn" onClick={() => window.scrollTo({top: 0, left: 0, behavior: "smooth"})}>
-                <div>Top👆</div>
-            </div>
+            <div style={{ paddingTop: "100px" }}>{children}</div>
+            {scrollY === 0 ? (
+                <div className="topBtn" onClick={() => window.scrollTo({ top: document.body.scrollHeight , left: 0, behavior: "smooth" })}>
+                    <div>End👇</div>
+                </div>
+            ) : (
+                <div className="topBtn" onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}>
+                    <div>Top👆</div>
+                </div>
+            )}
         </div>
     )
 }
